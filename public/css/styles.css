@@ -1,0 +1,189 @@
+:root{
+    --accent: #00b386;
+}
+
+main{
+    background-color: #b3b3b3;
+    height: 100vh;
+}
+.uitooltip  {
+    white-space: pre-line;
+}
+.text-white{
+    color:white;
+}
+.text-accent{
+    color: var(--accent);
+}
+.p-2{
+    padding: 20px
+}
+.p-3{
+    padding: 10px
+}
+.mt-2{
+    margin-top: 20px;
+}
+
+.bg-accent{
+    background-color: var(--accent);
+}
+
+.btn-accent{
+    background-color: var(--accent);
+    color: white;
+}
+.btn-accent:hover{
+    color: black !important;
+}
+.occupied{
+    background-color: grey;
+    color: white;
+    width: 80%;
+    height: 80%;
+}
+
+.open{
+    background-color: var(--accent);
+    width: 80%;
+    height: 80%;
+}
+.open a, .occupied a{
+    color: white;
+}
+.seats{
+    margin-left: 0;
+}
+.seats .col-md-2{
+    padding: 0;
+    text-align: center;
+    height: 50px;
+}
+.deluxe .col-md-2, .economy .col-md-2{
+    flex: 0 0 0 14.28%;
+    max-width: 14.28%;
+}
+.navbar{
+    z-index: 1;
+}
+.cover{
+    background-size: cover;
+    width: 100%;
+}
+.cover-text{
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px
+}
+.cover-text h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.main{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+
+/*Trip*/
+.trip{
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+.trip .card{
+    margin-top: 7px;
+}
+
+
+/*seat*/
+.custom-column-md{
+    flex: 0 0 11%;
+    max-width: 11%;
+    font-size: 80%;
+}
+
+.custom-column-sm{
+    flex: 0 0 8%;
+    max-width: 8%;
+}
+
+
+.profile .row{
+    padding: 20px;
+}
+
+
+
+
+
+
+/*seat*/
+.seats .row{
+    margin: 0 !important;
+}
+.plane p{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.seats .seatSelector{
+    padding: 20px;
+}
+.seats h3{
+    margin: 3px 0;
+}
+
+.plane{
+    border: 1px solid black;
+    padding-left: -10px;
+}
+.card-body{
+    background-color: white;
+}
+.custom-column-md{
+    flex: 0 0 11%;
+    max-width: 11%;
+    font-size: 80%;
+}
+
+.custom-column-sm{
+    flex: 0 0 8%;
+    max-width: 8%;
+}
+.First .seat, .aisle{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+.Business .seat{
+    width: 50px;
+    height: 40px;
+    margin: 7px 0;
+}
+.Economy .seat{
+    width: 50px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+
+
+.seatTable{
+    width: 70%;
+    border: 1px solid black;
+}
+.seatTable tr{
+    border-bottom: 1px solid black;
+}
+.seatTable td{
+    padding: 10px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 40px;
+    font-size: 2em;
+}
